@@ -1,6 +1,8 @@
-start = int(input(" Введите начало последовательности: "))
+start = int(input("Please enter start of sequence: "))
 
-end = int(input("Введите конец последовательности: "))
+end = int(input("Please enter end of sequence: "))
 
-for i in range( start, end ):
-    print(i)
+word = input("Please enter any word: ")
+
+for i in range(start, end, 1):
+    print(word)
